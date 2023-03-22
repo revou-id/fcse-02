@@ -37,3 +37,4 @@ function myFunction() {
 }
 
 document.getElementById("function-two").innerHTML = typeof carName;
+document.getElementsByClassName;
