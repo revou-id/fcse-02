@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Javascript</title>
+    <link rel="stylesheet" href="/css/index-first.css" />
+    <style>
+      .revou {
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+      }
+      @media screen and (min-width: 768px) {
+        .revou {
+          height: 400px;
+          width: 400px;
+          background-color: aqua;
+        }
+      }
+      @media screen and (min-width: 1024px) {
+        .revou {
+          height: 500px;
+          width: 500px;
+          background-color: burlywood;
+        }
+      }
+      #calculator {
+        background-color: rgb(207, 51, 207);
+        border: 20px solid black;
+        height: 400px;
+        width: 400px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+      nav {
+        font-size: 20px;
+        /* color: #fefefe; */
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style></head
+  >ß
+  <body>
+    <header style="background-color: aqua; padding: 10px">
+      <nav>
+        <a
+          class="nav-link"
+          href="http://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Google</a
+        >
+        <a
+          class="nav-link"
+          href="http://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Yahoo</a
+        >
+        <a
+          class="nav-link"
+          href="http://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Youtube</a
+        >
+        <a
+          class="nav-link"
+          href="http://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Titkok</a
+        >
+      </nav>
+    </header>
+    <!-- content -->
+    <main>
+      <section>
+        <h1>Pengenalan</h1>
+        <p>Pargraf</p>
+        <ul>
+          <li>haloo</li>
+          <li>haloo</li>
+          <li>haloo</li>
+          <li>haloo</li>
+        </ul>
+        <div>division</div>
+        <span>haloo</span>
+      </section>
+      <!-- content -->
+      <section id="calculator">
+        <h1 class="calculator-title">Title</h1>
+        <p class="calculator-paragraf">okee</p>
+        <form action="" class="calculator-form">
+          <div class="gender">
+            <label for="" class="gender-label"></label>
+            <input type="text" class="gender-input" />
+          </div>
+        </form>
+      </section>
+      <section id="result">
+        <h1 class="result-title">title</h1>
+        <h1 class="result-subtitle">title</h1>
+      </section>
+      <section>
+        <label for="number-one">Number One:</label>
+        <input type="number" id="number-one" name="number-one" />
+
+        <label for="number-two">Number Two:</label>
+        <input type="number" id="number-two" name="number-two" />
+
+        <button onclick="calculate()">Submit</button>
+
+        <p>Result: <span id="show-result"></span></p>
+      </section>
+      <section>ID / # > class / . > tag html</section>
+    </main>
+    <!-- Centnt  -->
+    <footer>copyright 2022</footer>
+  </body>
+  <script src="./js/input.js"></script>
+</html>

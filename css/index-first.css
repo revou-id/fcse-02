@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator-paragraf{
+  height: 100px;
+  width: 200px;
+  background-color: aquamarine;
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Optional CSS styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, button {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.nav-link{
+  color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: gray;
+}
+
+section{
+  min-height: 400px;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
