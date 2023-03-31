@@ -1,0 +1,1 @@
+const awdawk =a wdiawid ;

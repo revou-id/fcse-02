@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="calculator.css" />
   </head>
   <body>
+    <!-- container / content -->
     <div class="container">
       <!-- semua form input masuk ke box-->
-      <div class="box">
+      <main class="box">
         <h1>Kalkulator BMI</h1>
-        <div class="content">
+        <form class="content">
           <!-- input umur -->
           <div class="input">
             <label for="height">Umur Anda</label>
@@ -54,21 +55,21 @@
           </div>
           <!-- button hitung -->
           <button class="calculate" id="submit" onclick="calculate();">
-            <h2><strong>Hitung</strong></h2>
+            Hitung
           </button>
-        </div>
+        </form>
         <!-- output/hasil perhitungan BMI-->
         <div class="result">
           <p>Hasil BMI:</p>
-          <div id="result">00.00</div>
+          <h6 id="result">00.00</h6>
           <!-- keterangan hasil -->
           <p class="comment"></p>
         </div>
         <!-- footer -->
-        <div class="footer">develop by: fajriatun munawaroh</div>
-      </div>
+        <footer class="footer">develop by: fajriatun munawaroh</footer>
+      </main>
     </div>
-
+<!-- end of container -->
     <!-- modal -->
     <div id="myModal" class="modal">
       <!-- modal content -->
