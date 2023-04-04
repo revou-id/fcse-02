@@ -6,6 +6,9 @@
   font-family: sans-serif;
 }
 
+header{
+  background-color: aqua;
+}
 /* style untuk body */
 body {
   display: flex;

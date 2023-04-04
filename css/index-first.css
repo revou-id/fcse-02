@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+header{
+  background-color: aqua;
+}
 .calculator-paragraf{
   height: 100px;
   width: 200px;
@@ -52,3 +55,28 @@ section{
     margin: 0;
     padding: 0;
 }
+/* Style Responsive */
+@media screen and (min-width: 400px) {
+  header{
+    background-color: azure;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  header{
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header{
+    background-color: #4CAF50;
+  }
+}
+@media screen and (min-width: 2560px) {
+  
+}
+
+/* 
+klo default itu aqua, tapi klo screen 760 - 1280 => blue. kalau >1280 => green
+*/

@@ -4,6 +4,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+header{
+  background-color: aqua; 
+  padding: 10px;
+}
 /* Body */
 body{
   padding: 0 10px;
@@ -68,3 +72,4 @@ main {
   border: none;
   border-radius: 6px;
 }
+/* Style Responsive */

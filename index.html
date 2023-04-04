@@ -44,7 +44,7 @@
     </style></head
   >ß
   <body>
-    <header style="background-color: aqua; padding: 10px">
+    <header>
       <nav>
         <a
           class="nav-link"
@@ -114,7 +114,69 @@
 
         <button onclick="calculate()">Submit</button>
 
-        <p>Result: <span id="show-result"></span></p>
+        <p>Result: <span id="show-results"></span></p>
+      </section>
+      <section>
+        <form onsubmit="handleSubmit(event)">
+          <label for="input-one">Input One (String):</label>
+          <input
+            type="text"
+            id="input-one"
+            name="input-one"
+            pattern="[A-Za-z]+"
+            required
+          />
+
+          <label for="input-two">Input Two (Number):</label>
+          <input
+            type="text"
+            id="input-two"
+            name="input-two"
+            pattern="[0-9]+"
+            required
+          />
+
+          <label for="input-three">Input Three (Number):</label>
+          <input
+            type="text"
+            id="input-three"
+            name="input-three"
+            pattern="[0-9]+"
+            required
+          />
+
+          <fieldset>
+            <legend>Select a Theme:</legend>
+            <label for="light-theme">
+              <input
+                type="radio"
+                id="light-theme"
+                name="input-four"
+                value="light"
+                checked
+              />
+              Light Theme
+            </label>
+
+            <label for="dark-theme">
+              <input
+                type="radio"
+                id="dark-theme"
+                name="input-four"
+                value="dark"
+              />
+              Dark Theme
+            </label>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+        </form>
+
+        <span>Name: <span id="show-name"></span></span>
+        <br />
+        <span>Result: <span id="show-result"></span></span>
+        <br />
+        <span>Theme: <span id="show-theme"></span></span>
       </section>
       <section>ID / # > class / . > tag html</section>
     </main>
