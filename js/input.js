@@ -15,11 +15,7 @@ function handleSubmit(event) {
 
   try {
     const nameInput = document.getElementById("input-one");
-    const numInput1 = document.getElementById("input-two");
-    const numInput2 = document.getElementById("input-three");
-    const themeInput = document.querySelector(
-      'input[name="input-four"]:checked'
-    );
+    const numInput1 = document.get('input[name="input-four"]:checked');
 
     const name = nameInput.value.trim();
     const num1 = parseFloat(numInput1.value.trim(), 10);

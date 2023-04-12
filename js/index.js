@@ -28,9 +28,10 @@ for (let i = 0; i < cars.length; i++) {
 document.getElementById("looping").innerHTML = text;
 // console.log("text", text);
 //javascript function
-myFunction();
+addNameCar();
 
-function myFunction() {
+// function for addnime name car
+function addNameCar() {
   let carName = "Volvo";
   document.getElementById("function-one").innerHTML =
     typeof carName + " " + carName;
